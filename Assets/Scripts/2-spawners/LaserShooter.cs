@@ -5,7 +5,7 @@ using System.Collections;
  * This component spawns the given laser-prefab whenever the player clicks a given key.
  * It also updates the "scoreText" field of the new laser.
  */
-public class LaserShooter : ClickSpawner{
+public class LaserShooter : ClickSpawner {
     [SerializeField] NumberField scoreField;
     [SerializeField] float timeBetweenShots = 0.5f;
     private bool canShoot = true;
@@ -22,7 +22,7 @@ public class LaserShooter : ClickSpawner{
         // Set your Values
         // Or whatever else
     }
-    protected override GameObject spawnObject(){
+    protected override GameObject spawnObject() {
         if (!canShoot)
         {
             return null;
