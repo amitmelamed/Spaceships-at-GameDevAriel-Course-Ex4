@@ -1,42 +1,48 @@
-# Unity week 2: Formal elements
+<div dir='rtl' lang='he'>
 
-A project with step-by-step scenes illustrating some of the formal elements of game development in Unity, including: 
-
-* Prefabs for instantiating new objects;
-* Colliders for triggering outcomes of actions;
-* Coroutines for setting time-based rules.
-
-Text explanations are available 
-[here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 04.
-
-## Cloning
-To clone the project, you may need to install git lfs first (if it is not already installed):
-
-    git lfs install 
-
-To clone faster, you can limit the depth to 1 like this:
-
-    git clone --depth=1 https://github.com/<repository-name>.git
-
-When you first open this project, you may not see the text in the score field.
-This is because `TextMeshPro` is not in the project.
-The Unity Editor should hopefully prompt you to import TextMeshPro;
-once you do this, re-open the scenes, and you should be able to see the texts.
+#  פיתוח משחקי מחשב
+## קורס באוניברסיטת אריאל, בית-הספר למחשוב, סמסטר ב ה'תשפ"ג
+----
 
 
+הקורס כולל שני נושאים עיקריים:
 
-## Credits
+* תהליך העיצוב והפיתוח של משחקים ומשחקי-מחשב.
+* תיכנות משחקים בשפת סי שארפ ומנוע יוניטי. 
 
-Programming:
-* Maoz Grossman
-* Erel Segal-Halevi
+שימו לב: כדי לצפות במצגות, צריך לשבט את כל המאגר למחשב שלכם:
 
-Online courses:
-* [The Ultimate Guide to Game Development with Unity 2019](https://www.udemy.com/the-ultimate-guide-to-game-development-with-unity/), by Jonathan Weinberger
+    git clone https://github.com/gamedev-at-ariel/gamedev-5783.git
 
-Graphics:
-* [Matt Whitehead](https://ccsearch.creativecommons.org/photos/7fd4a37b-8d1a-4d4c-80a2-4ca4a3839941)
-* [Kenney's space kit](https://kenney.nl/assets/space-kit)
-* [Ductman's 2D Animated Spacehips](https://assetstore.unity.com/packages/2d/characters/2d-animated-spaceships-96852)
-* [Franc from the Noun Project](https://commons.wikimedia.org/w/index.php?curid=64661575)
-* [Greek-arrow-animated.gif by Andrikkos is licensed under CC BY-SA 3.0](https://search.creativecommons.org/photos/2db102af-80d0-4ec8-9171-1ac77d2565ce)
+להיכנס לתיקיה של השבוע המתאים, 
+ולפתוח את הקובץ
+`slides.html`
+בדפדפן כלשהו.
+
+
+לפרטים נוספים על הקורס ראו:
+* [הקלטות הקורס משנה שעברה](https://www.youtube.com/watch?v=VWVv02sfwbc&list=PLM9fKcsATjxjqsyIcU4IRWuo-w4rQf_Pb)
+* [חוקי צבירת הנקודות בקורס](grade-rules.md)
+* [תקנון היושר בהגשת מטלות](https://www.ariel.ac.il/wp/cs/wp-content/uploads/sites/88/2020/08/Guidelines-for-Academic-Integrity.pdf)
+* [למי הקורס **לא** מתאים](disclaimer.md)
+* [דרישות חומרה ותוכנה](hardware.md)
+* [משחקונים שפיתחו סטודנטים שלמדו את הקורס בעבר](https://sites.google.com/view/gamedev-at-ariel)
+* [דוגמאות קוד להרצאות](../../../)
+* [איפה מוצאים משחקים בחינם](free-games.md)
+* [איפה מוצאים נכסים בחינם](free-assets.md)
+* [כנסים בינלאומיים שבהם אפשר להציג את המשחקים שלכם](conferences.md)
+* [קורסים אחרים בארץ ובעולם](other-courses.md)
+* [חברות לפיתוח משחקי מחשב בישראל](israeli-gamedev.md)
+
+
+## תודות
+הקורס פותח בעזרתם של הסטודנטים: מעוז גרוסמן, מיכאל למברגר, אור הדר וגיא אנקרי.
+חלק מחומרי הלימוד נכתבו ע"י חן אוסטרובסקי, אינה גריגור, אביהוא אושרי, ואליהו פרץ.
+
+חלק מהחומר על יוניטי נלמד מקורסים ביודמי: [Unity 2D](https://www.udemy.com/course/unitycourse/learn/lecture/10248514),  [Unity 3D](https://www.udemy.com/course/unitycourse2/learn/lecture/8859276),  [Unity RPG](https://www.udemy.com/course/unityrpg/learn/lecture/14593312).
+
+[התמונה למטה מאתר reddit](https://www.reddit.com/r/gaming/comments/84884e/video_games_ruined_my_life/).
+
+![Video games ruined my life](02-design-formal/video-games-ruined-my-lives.png)
+
+</div>
