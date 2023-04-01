@@ -22,7 +22,7 @@ public class LaserShooter : ClickSpawner {
         // Set your Values
         // Or whatever else
     }
-    protected override GameObject spawnObject() {
+    protected override GameObject spawnObject(){
         if (!canShoot)
         {
             return null;
