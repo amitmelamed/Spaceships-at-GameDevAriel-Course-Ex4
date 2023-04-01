@@ -4,45 +4,43 @@
 ## קורס באוניברסיטת אריאל, בית-הספר למחשוב, סמסטר ב ה'תשפ"ג
 ----
 
+My assigment was to choose between few core procceses in the game and change them, and add new features to the existing game.<br />
+I choosed to make a timer for the player's shooting abilities, so that he will not be able to shoot at non-stop pace.<br />
+After this I added a new level to the game include a new Boss enemy with AI Beheviare.<br />
+<br />
+![image](https://user-images.githubusercontent.com/88790441/229295204-70443e5a-6816-4ae2-ad4d-426d1b71e37c.png)<br />
+I added a new Serielizable Field called Time Between Shots, which will be the delay time you must wait before taking another shot.<br />
+<br />
+The algorithm i have used:<br />
+1.Initialize Private boolean variable called canShoot and initilized to true at the begining of the script.<br />
+2.When Shooting:<br />
+2.1 Check if we can shoot (canShoot var)<br />
+2.1.1 false ->return null<br />
+2.2 true -> set can shoot to false<br />
+2.3 set timer that at the end of it set canShoot to true (Using IEnumerator)<br />
+2.4 shoot<br />
+<br />
+![image](https://user-images.githubusercontent.com/88790441/229295654-8802482e-7069-4408-9f87-6c00b89aeb3b.png)<br />
+<br />
+The Second part of the assigment i created a new level to the game, by creating a new scene called amitLevel.<br />
+After completing level-1, we will not move to level-2 with is "YOU WINN" screen.<br />
+We will move to new level with new boss enemy i created.<br />
+The boss will spawn Enemies at us and will move very fast from side to side. <br />
+after hitting the boss, we will move to level-2 and complete the game.<br />![image](https://user-images.githubusercontent.com/88790441/229295965-685aa938-b346-4341-9e30-3206e768e1e9.png)
+<br /><br />
+For creating the boss i used an Enemy Spawner and added him:<br />
+Rigidbody2D<br />
+Polygon Colider 2D<br />
+Sprite Render with new enemy sprite<br />
+<br />
+Boss AI script i created which move the boss from side to side, and when dealing with hit by laser - move to next level .<br /><br />
+Inputs for script are where the Boss will move, trigering tag (laser by default), and the next scene to move when get hit.<br />
+The boss object will be also destroyed by hit.
+<br />
+![image](https://user-images.githubusercontent.com/88790441/229296439-6c82eaa4-52be-470e-966a-6d0096d7f09c.png)
 
-הקורס כולל שני נושאים עיקריים:
-
-* תהליך העיצוב והפיתוח של משחקים ומשחקי-מחשב.
-* תיכנות משחקים בשפת סי שארפ ומנוע יוניטי. 
-
-שימו לב: כדי לצפות במצגות, צריך לשבט את כל המאגר למחשב שלכם:
-
-    git clone https://github.com/gamedev-at-ariel/gamedev-5783.git
-
-להיכנס לתיקיה של השבוע המתאים, 
-ולפתוח את הקובץ
-`slides.html`
-בדפדפן כלשהו.
-
-
-לפרטים נוספים על הקורס ראו:
-* [הקלטות הקורס משנה שעברה](https://www.youtube.com/watch?v=VWVv02sfwbc&list=PLM9fKcsATjxjqsyIcU4IRWuo-w4rQf_Pb)
-* [חוקי צבירת הנקודות בקורס](grade-rules.md)
-* [תקנון היושר בהגשת מטלות](https://www.ariel.ac.il/wp/cs/wp-content/uploads/sites/88/2020/08/Guidelines-for-Academic-Integrity.pdf)
-* [למי הקורס **לא** מתאים](disclaimer.md)
-* [דרישות חומרה ותוכנה](hardware.md)
-* [משחקונים שפיתחו סטודנטים שלמדו את הקורס בעבר](https://sites.google.com/view/gamedev-at-ariel)
-* [דוגמאות קוד להרצאות](../../../)
-* [איפה מוצאים משחקים בחינם](free-games.md)
-* [איפה מוצאים נכסים בחינם](free-assets.md)
-* [כנסים בינלאומיים שבהם אפשר להציג את המשחקים שלכם](conferences.md)
-* [קורסים אחרים בארץ ובעולם](other-courses.md)
-* [חברות לפיתוח משחקי מחשב בישראל](israeli-gamedev.md)
-
-
-## תודות
-הקורס פותח בעזרתם של הסטודנטים: מעוז גרוסמן, מיכאל למברגר, אור הדר וגיא אנקרי.
-חלק מחומרי הלימוד נכתבו ע"י חן אוסטרובסקי, אינה גריגור, אביהוא אושרי, ואליהו פרץ.
-
-חלק מהחומר על יוניטי נלמד מקורסים ביודמי: [Unity 2D](https://www.udemy.com/course/unitycourse/learn/lecture/10248514),  [Unity 3D](https://www.udemy.com/course/unitycourse2/learn/lecture/8859276),  [Unity RPG](https://www.udemy.com/course/unityrpg/learn/lecture/14593312).
-
-[התמונה למטה מאתר reddit](https://www.reddit.com/r/gaming/comments/84884e/video_games_ruined_my_life/).
-
-![Video games ruined my life](02-design-formal/video-games-ruined-my-lives.png)
+<br />
+After destroying the boss we will move to level-2 and finish the game.<br />
+![image](https://user-images.githubusercontent.com/88790441/229296615-591d1193-cbe0-477f-a1b9-eef2057ac2c0.png)
 
 </div>
