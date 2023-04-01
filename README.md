@@ -41,6 +41,8 @@ The boss object will be also destroyed by hit.
 
 <br />
 After destroying the boss we will move to level-2 and finish the game.<br />
-![image](https://user-images.githubusercontent.com/88790441/229296615-591d1193-cbe0-477f-a1b9-eef2057ac2c0.png)
+  ![image](https://user-images.githubusercontent.com/88790441/229296727-182d50ed-04f5-44e5-baa1-7a743a739525.png)
+
+
 
 </div>
