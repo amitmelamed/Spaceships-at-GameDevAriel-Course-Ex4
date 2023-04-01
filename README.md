@@ -7,6 +7,8 @@
 My assigment was to choose between few core procceses in the game and change them, and add new features to the existing game.<br />
 I choosed to make a timer for the player's shooting abilities, so that he will not be able to shoot at non-stop pace.<br />
 After this I added a new level to the game include a new Boss enemy with AI Beheviare.<br />
+Tp Play the Game: <br />
+https://amitmelamed.itch.io/spaceships<br />
 <br />
 ![image](https://user-images.githubusercontent.com/88790441/229295204-70443e5a-6816-4ae2-ad4d-426d1b71e37c.png)<br />
 I added a new Serielizable Field called Time Between Shots, which will be the delay time you must wait before taking another shot.<br />
