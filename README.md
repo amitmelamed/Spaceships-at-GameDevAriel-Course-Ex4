@@ -6,6 +6,7 @@ A project with step-by-step scenes illustrating some of the formal elements of g
 * Colliders for triggering outcomes of actions;
 * Coroutines for setting time-based rules.
 
+
 Text explanations are available 
 [here](https://github.com/gamedev-at-ariel/gamedev-5782) in folder 04.
 
@@ -30,6 +31,7 @@ once you do this, re-open the scenes, and you should be able to see the texts.
 Programming:
 * Maoz Grossman
 * Erel Segal-Halevi
+
 
 Online courses:
 * [The Ultimate Guide to Game Development with Unity 2019](https://www.udemy.com/the-ultimate-guide-to-game-development-with-unity/), by Jonathan Weinberger
